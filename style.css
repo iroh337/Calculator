@@ -78,15 +78,21 @@ footer{
     font-size: 1.2rem;
     font-weight: bold;
 }
+.equal{
+    display: flex;
+    justify-content: center; 
+}   
 
-#plus{
+#equal{
+    border-radius: 20px;
+    width: 87%;
     background-color: dodgerblue;
 }
-#plus:hover{
-    background-color: rgb(90, 169, 248);
+#equal:hover{
+    background-color:rgb(100, 175, 250)
 }
-#plus:active{
-    background-color: rgb(174, 213, 253);
+#equal:active{
+    background-color: rgb(136, 196, 255)
 }
 
 @media (max-width: 600px){
