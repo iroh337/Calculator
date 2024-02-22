@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,300&display=swap');
 
+@font-face {
+    font-family: minhaf;
+    src: url(./LEDCalculator.ttf);
+}
+
 *{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: minhaf;
 }
 
 body{
@@ -47,6 +53,8 @@ button{
     border-radius: 100px;
 }
 
+
+
 .calculator #c{
     justify-content: end;
     align-items: end;
@@ -77,6 +85,7 @@ button.operator:active{
 footer{
     font-size: 1.2rem;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .equal{
     display: flex;
