@@ -1,6 +1,13 @@
 var display = document.querySelector('.display')
 
 
+
+
+function alternate(){
+    
+        display.value *=(-1)
+}
+
 function appendDisplay(input){
     display.value += input
 }
