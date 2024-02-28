@@ -27,10 +27,9 @@ function calculate(){
         setTimeout(function(){
             location.reload()
             
-        },1400)
+        },1500)
         
     }
-
     if(display.value == 'undefined'){
          appendDisplay = null
         setTimeout(function(){
@@ -38,5 +37,11 @@ function calculate(){
         },1400)
     
     }
+}
+
+function disDelete(){
+    var currentValue = display.value;
+    var newValue = currentValue.substring(0, currentValue.length - 1);
+    display.value = newValue;
 }
 
